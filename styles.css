@@ -1,16 +1,16 @@
 
 /* logo section */
 .divheader {
-  height: 62.5rem;
+  height: 50rem;
   width: 100%;
   background-color: gray;
-  background-image: url(images/whitehouse.png);
+  background-image: url(images/cabin.png);
 }
 
 
 .logoimage {
-  height: 50rem;
-  width: 50rem;
+  height: 31.25rem;
+  width: 31.25rem;
   margin:auto;
   position: absolute;
   right: 0;
@@ -20,15 +20,15 @@
 
 
 .logodiv {
-  height: 800px;
-  width: 1000px;
-  background-color: white;
+  height: 31.25rem;
+  width: 43.75rem;
+  background-color: #f3ffff;
   position: absolute;
   right: 0;
   left: 0;
   margin-top: 6.25rem;
   border-radius: 10%;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 
@@ -47,7 +47,7 @@
                 opacity:0;
               }
               100% {
-                opacity:0.95;
+                opacity:0.9;
               }
             }
 
@@ -56,7 +56,7 @@
                 opacity:0;
               }
               100% {
-                opacity:0.95;
+                opacity:0.9;
               }
             }
 
@@ -65,7 +65,7 @@
                 opacity:0;
               }
               100% {
-                opacity:0.95;
+                opacity:0.9;
               }
             }
 
@@ -74,7 +74,7 @@
                 opacity:0;
               }
               100% {
-                opacity:0.95;
+                opacity:0.9;
               }
             }
 
@@ -83,7 +83,7 @@
                 opacity:0;
               }
               100% {
-                opacity:0.95;
+                opacity:0.9;
             }
 
 
