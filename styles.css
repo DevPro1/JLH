@@ -1,0 +1,95 @@
+
+/* logo section */
+.divheader {
+  height: 62.5rem;
+  width: 100%;
+  background-color: gray;
+  background-image: url(images/whitehouse.png);
+}
+
+
+.logoimage {
+  height: 50rem;
+  width: 50rem;
+  margin:auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+
+}
+
+
+.logodiv {
+  height: 800px;
+  width: 1000px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-top: 6.25rem;
+  border-radius: 10%;
+  opacity: 0.95;
+}
+
+
+
+            /* fade in section */
+
+            .fade-in {
+              animation: fadeIn ease 5s;
+              -webkit-animation: fadeIn ease 5s;
+              -moz-animation: fadeIn ease 5s;
+              -o-animation: fadeIn ease 5s;
+              -ms-animation: fadeIn ease 5s;
+            }
+            @keyframes fadeIn {
+              0% {
+                opacity:0;
+              }
+              100% {
+                opacity:0.95;
+              }
+            }
+
+            @-moz-keyframes fadeIn {
+              0% {
+                opacity:0;
+              }
+              100% {
+                opacity:0.95;
+              }
+            }
+
+            @-webkit-keyframes fadeIn {
+              0% {
+                opacity:0;
+              }
+              100% {
+                opacity:0.95;
+              }
+            }
+
+            @-o-keyframes fadeIn {
+              0% {
+                opacity:0;
+              }
+              100% {
+                opacity:0.95;
+              }
+            }
+
+            @-ms-keyframes fadeIn {
+              0% {
+                opacity:0;
+              }
+              100% {
+                opacity:0.95;
+            }
+
+
+
+/* body section */
+
+body {
+  margin: 0;
+}
